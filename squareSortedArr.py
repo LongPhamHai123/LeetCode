@@ -27,3 +27,6 @@ def sortedSquares2(self, nums: list[int]) -> list[int]:
             res[i] = nums[right] ** 2
             right -= 1
     return res
+if __name__ == "__main__":
+    nums = [-7, -3, 2, 3, 11]
+    print("Sorted Squares:", sortedSquares(nums))
